@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: Lato, sans-serif, Arial, Helvetica;
+}
+
+p {
+  font-size: 18px;
+}
+
+main {
+  padding-left: 3em;
+}
+
+.text {
+  overflow: hidden;
+  height: 100vh;
+
+  /* 50% / cover; */
+}
+
+/* text visibility and text centering  */
+.content-wrap {
+  /* err display:inline; 
+     width: 400px; */
+  height: inherit;
+  background: inherit;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font: 900 35vmin/50vh;
+  /* err text-align: left; */
+  filter: invert(1);
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 110px;
+}
+
+p .edu {
+  font-size: 50px;
+}
+
+.text {
+  color: rgb(131, 40, 4);
+  font-weight: bold;
+  position: relative;
+}
+
+#more {
+  display: none;
+}
+
+h3.text-center {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.mx-auto {
+  margin-left: auto !important;
+}
+
+.aboutme {
+  color: rgb(17, 5, 1);
+  text-align: center;
+  margin-top: 70px;
+}
+
+.vertical-line {
+  border-left: 4px solid #32d295;
+  height: 400px;
+  /* position:absolute; 
+    left: 50%;  */
+}
+
+.row {
+  margin-top: 30px;
+}
+
+.img-box {
+  text-align: center;
+}
+
+.about-image {
+  /* same as .rounded-circle border-radius: 50%; */
+  margin: 5px 20px;
+  vertical-align: middle;
+}
+
+h4.jobTitle {
+  text-align: center;
+  color: #32d295;
+}
+
+.info {
+  margin: 0 auto;
+}
+
+.portfolio-header {
+  color: #32d295;
+  text-align: center;
+  margin: 70px 0;
+}
+
+.btn-color {
+  background-color: #32d295;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+form input {
+  cursor: pointer;
+  background: #32d295;
+}
